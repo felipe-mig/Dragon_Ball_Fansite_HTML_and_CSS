@@ -1,0 +1,2652 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.Palette {
+  color: #222222; /* Headers */
+  color: #5c2f1e;
+  color: #d46b3a;
+  color: #d76e3b;
+  color: #e2763e;
+  color: #ed8635;
+  color: #f75b20;
+  color: #2f6ea7;
+  color: #102d55;
+  color: #eadfb4;
+  color: #f8f0d1;
+  color: #fbe9c2;
+  color: #c9b98c;
+  color: #f9e659;
+  color: #fff715;
+  color: #ddaf52;
+  color: #584336;
+  color: #5b4636;
+  color: #c0ad97;
+  color: #826e5a;
+}
+html {
+  scrollbar-color: #826e5a #c0ad97;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #faebd7; 
+}
+/* top bar */
+.second-header {
+  border: 2px solid #000000;
+  border-top: none;
+  width: 83vw;
+  margin-right: 0.5vw;
+  height: 11.25vh;
+  background-image: url(../img/index-section/deftitle-copy.jpg);
+  background-size: cover;
+  float: right;
+  /* margin-bottom: 1vh; */
+}
+.second-header-p {
+  font-family: noto;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 1vw;
+  padding-top: 0.2vh;
+  color: #222222;
+}
+header {
+  border: 3px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: #e2763e;
+  width: 15vw;
+  height: 105vh;
+  float: left;
+  position: fixed;
+}
+.logo-image {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  width: 15vw;
+  height: 23.5vh;
+  background-image: url(../img/logo-goku.png);
+  background-size: cover;
+}
+.news {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  width: 15vw;
+  /* height: 5vh; */
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.05em;
+  text-align: start;
+  padding: 0.5vh 1vw;
+  color: #000000;
+}
+.news:hover{
+  background-color: #ed8635;
+}
+.where-to-watch {
+  border: 1px solid black;
+  border-left: none;
+  border-bottom: 1px solid black;
+  border-top: none;
+  width: 15vw;
+  color: #000000;
+  /* height: 4vh; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.07em;
+  text-align: start;
+  padding: 0.5vh 1vw;
+}
+.where-to-watch:hover {
+  /* background-color: #d46b3a; */
+  background-color: #ed8635;
+  /* color: #102d55; */
+}
+.where-to-watch-link {
+  text-decoration: none;
+}
+.external-site-p-news{ 
+  font-size: 0.8em;
+  float: right;
+  padding-right: 4.5vw;
+  padding-top: 0.5vh;
+}
+.external-site-p-watch-now {
+  font-size: 0.8em;
+  float: right;
+  padding-top: 0.5vh;
+  margin-right: 1.25vw;
+}
+/* nav-list */
+nav {
+  border: 2px solid #000000;
+  border-top: 1px solid #000000;
+  border-left: none;
+  border-right: none;
+  /* width: 15vw; */
+  /* height: 25vh; */
+  background-color: #102d55;
+  /* margin-top: 1.3vh; */
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  /* float: left; */
+  /* border: 1px solid white; */
+  /* width: 15vw; */
+  line-height: 3vh;
+  text-align: start;
+  padding: 0 1vw;
+  font-size: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.06em;
+}
+li:hover {
+  background-color: #ed8635;
+  /* color: #102d55; */
+}
+/* footer */
+.logos-footer {
+  /* border: 1px solid black; */
+  /* width: 15vw; */
+  height: 33vh;
+}
+.logofooter1 {
+  /* border: 1px solid black; */
+  background-image: url(../img/logos/DB-O-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 3vh;
+  /* margin-right: auto; */
+  margin-left: 1vw;
+  width: 12vw;
+  height: 5.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.logofooter1:hover {
+  transform : scale(1.05);
+  -moz-transform : scale(1.05);
+  -webkit-transform : scale(1.05);
+  -o-transform : scale(1.05);
+  -ms-transform : scale(1.05);
+}
+.logofooter2 {
+  /* border: 1px solid black; */
+  background-image: url(../img/logos/DB-Z-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1.5vh;
+  margin-left: 1vw;
+  width: 12vw;
+  height: 5vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.logofooter2:hover {
+  transform : scale(1.05);
+  -moz-transform : scale(1.05);
+  -webkit-transform : scale(1.05);
+  -o-transform : scale(1.05);
+  -ms-transform : scale(1.05);
+}
+.logofooter3 {
+  /* border: 1px solid black; */
+  background-image: url(../img/logos/DB-GT-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  width: 10vw;
+  height: 7vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.logofooter3:hover {
+  transform : scale(1.05);
+  -moz-transform : scale(1.05);
+  -webkit-transform : scale(1.05);
+  -o-transform : scale(1.05);
+  -ms-transform : scale(1.05);
+}
+.logofooter4 {
+  /* border: 1px solid black; */
+  background-image: url(../img/logos/DB-S-logo.png);
+  background-size: cover;
+  margin-top: 0.25vh;
+  margin-left: 1vw;
+  width: 11vw;
+  height: 8vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.logofooter4:hover {
+  transform : scale(1.05);
+  -moz-transform : scale(1.05);
+  -webkit-transform : scale(1.05);
+  -o-transform : scale(1.05);
+  -ms-transform : scale(1.05);
+}
+/* social media */
+.social-media-icons-container {
+  /* border: 1px solid black; */
+  width: 9.75vw;
+  height: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0.2vw;
+  margin-top: 1vh;
+}
+i {
+  /* border: 1px solid black; */
+  font-size: 1.2em;
+  color: #000000;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+i:hover {
+  color: #CAA937;
+}
+.copyright {
+  font-family: noto;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-left: 1vw;
+  margin-top: 1.75vh;
+}
+
+/* INDEX SECTION */
+
+/* CTA */
+.cta {
+  /* border: 1px solid black; */
+  width: 85vw;
+  float: right;
+  margin-top: 1.25vh;
+}
+video {
+  width: 83vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0.75vh;
+  border: 2px solid black;
+}
+.index-sypnosys-container {
+  border: 3px solid black;
+  border-bottom: none;
+  border-right: none;
+  width: 85vw;
+  height: 48vh;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-sypnosys-image {
+  border: 2px solid black;
+  width: 41vw;
+  height: 45vh;
+  /* float: left; */
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  /* margin-right: 0.75vw; */
+  background-image: url(../img/index-section/IMG_92361.jpg);
+  background-size: cover;
+}
+.index-sypnosys {
+  border: 2px solid black;
+  width: 41vw;
+  height: 45vh;
+  margin-top: 1.25vh;
+  margin-left: 0.75vw;
+  margin-bottom: 1.25vh;
+  background-image: url(../img/index-section/opening-scene.png);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  /* opacity: 0.93; */
+}
+.index-sypnosys:hover {
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+}
+.index-sypnosys-p {
+color: white;
+font-family: noto;
+text-align: center;
+line-height: 2.7vh;
+padding-top: 14.5vh;
+transition: all .5s;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+-o-transition: all .5s;
+-ms-transition: all .5s;
+}
+
+/* images container 1 */
+.container-1 {
+  border: 3px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  width: 85vw;
+  height: 31vh;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-1-image-1 {
+  border: 2px solid black;
+  width: 41vw;
+  height: 28vh;
+  /* float: left; */
+  margin-top: 1.25vh;
+  margin-left: 0.75vw;
+  margin-bottom: 1.25vh;
+  /* margin-right: 0.75vw; */
+  background-image: url(../img/index-section/raditz.jpg);
+  background-size: cover;
+}
+.container-1-image-2 {
+  border: 2px solid black;
+  width: 41vw;
+  height: 28vh;
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  background-image: url(../img/index-section/gokukaioken.jfif);
+  background-size: cover;
+}
+/* images container 2 */
+
+.container-2 {
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  float: right;
+  width: 85vw;
+  height: 65.25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-2-image-1 {
+  border: 2px solid black;
+  width: 27vw;
+  height: 62.5vh;
+  margin-left: 0.75vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/android16.png);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.container-2-image-1:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+.container-2-image-2 {
+  border: 2px solid black;
+  height: 62.5vh;
+  width: 27vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/ss41.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.container-2-image-2:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+.container-2-image-3 {
+  border: 2px solid black;
+  height: 62.5vh;
+  width: 27vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/broly.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s
+}
+.container-2-image-3:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+/* images container 3 */
+
+.container-3 {
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  /* background-color: red; */
+  float: right;
+  width: 85vw;
+  height: 65.25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-3-image-1 {
+  border: 2px solid black;
+  width: 27vw;
+  height: 62.5vh;
+  margin-left: 0.75vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/cellperf1.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s
+}
+.container-3-image-1:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+.container-3-image-2 {
+  border: 2px solid black;
+  height: 62.5vh;
+  width: 27vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/freezer.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s
+}
+.container-3-image-2:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+.container-3-image-3 {
+  border: 2px solid black;
+  height: 62.5vh;
+  width: 27vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/kid-buu-def2.jfif);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s
+}
+.container-3-image-3:hover {
+  transform : scale(1.03);
+  -moz-transform : scale(1.03);
+  -webkit-transform : scale(1.03);
+  -o-transform : scale(1.03);
+  -ms-transform : scale(1.03);
+}
+
+/* images container 4 */
+
+.container-4 {
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  /* background-color: skyblue; */
+  float: right;
+  width: 85vw;
+  height: 42.75vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-4-image-1 {
+  border: 2px solid black;
+  width: 16vw;
+  height: 40vh;
+  margin-left: 0.75vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/gohandef.jfif);
+  background-size: cover;
+}
+.container-4-image-2 {
+  border: 2px solid black;
+  height: 40vh;
+  width: 16vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/trunks.jpg);
+  background-size: cover;
+}
+.container-4-image-3 {
+  border: 2px solid black;
+  height: 40vh;
+  width: 16vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/ozarudef2.jfif);
+  background-size: cover;
+}
+.container-4-image-4 {
+  border: 2px solid black;
+  height: 40vh;
+  width: 16vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/bardockdef.jpg);
+  background-size: cover;
+}
+.container-4-image-5 {
+  border: 2px solid black;
+  height: 40vh;
+  width: 16vw;
+  margin-top: 1.25vh;
+  background-image: url(../img/index-section/piccolodef.jpg);
+  background-size: cover;
+}
+
+/* SYPNOSYS Section */
+
+/* Sypnosys CTA */
+.sypnosys-cta-container {
+  /* border: 1px solid black; */
+  width: 80vw;
+  height: 61.5vh;
+  float: right;
+  margin-top: 3vh;
+  margin-right: 1.75vw;
+  /* margin-left: 2.5vw; */
+  /* margin-bottom: 1vh; */
+}
+.sypnosys-cta-image {
+  border: 3px solid black;
+  /* margin-top: 1.25vh; */
+  /* margin-bottom: 1.5vh; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  width: 80vw;
+  height: 59.75vh;
+  background-image: url(../img/sypnosys-section/shenron.jpg);
+  background-size: cover;
+}
+.sypnosys-text-container {
+  /* border: 2px solid black; */
+  /* background-color: #5A4439; */
+  width: 42.5vw;
+  /* height: 62vh; */
+  float: left;
+  margin-left: 15.75vw;
+  margin-top: 1vh;
+}
+#sypnosys-header {
+  border-bottom: 4px solid #ed8635;
+  /* border-left: 5px solid #e2763e; */
+  /* background-color: #e2763e; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.05em;
+  color: #222222;
+  /* padding-left: 1vw; */
+  margin-left: 3vw;
+  padding-bottom: 0.25vh;
+}
+/* font-size: 2; */
+/* margin-left: vw; */
+/* float: right; */
+.sypnosys-p {
+  /* width: 42.5vw; */
+  font-family: noto;
+  font-size: 0.9em;
+  line-height: 2.7vh;
+  color: #000000;
+  padding-left: 3vw;
+}
+.syp-img1 {
+  border: 2px solid black;
+  background-image: url(../img/sypnosys-section/sayain_family.jpg);
+  background-size: cover;
+  /* font-family: noto;
+  font-size: 0.9em;
+  line-height: 2.7vh;
+  color: #000000;
+  padding-left: 3vw; */
+  width: 39vw;
+  height: 35vh;
+  /* height: 62vh; */
+  /* float: left; */
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+/* CHARACHTERS Section */
+
+/* characters container row 1 */
+.characters-container {
+  /* border-bottom: 2px solid black; */
+  background-color: antiquewhite;
+  float: right;
+  width: 85vw;
+  height: 33.5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.characters-container-image {
+  border: 2px solid black;
+  /* background-color: #d16d3c; */
+  background-color: #ed8635;
+  /* background-color: #f75b20; */
+  width: 12vw;
+  height: 30vh;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.characters-container-image:hover{
+  transform : scale(1.07);
+  -moz-transform : scale(1.07);
+  -webkit-transform : scale(1.07);
+  -o-transform : scale(1.07);
+  -ms-transform : scale(1.07);
+  background-color: #2f1e0f;
+} 
+
+/* characters cards row 1 */
+.name {
+  background-color: #4b2d15;
+  width: 11.5vw;
+  height: 4.05vh;
+  margin: 0 auto;
+}
+.character-name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.4em;
+  color: white;
+  letter-spacing: 0.03em;
+  padding-top: 0.5vh;
+  -webkit-text-stroke: 0.8px #000000;
+  text-align: center;
+}
+.img1 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/amond/amond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+} 
+.img2 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/13/androide-13.1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img3 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/15/androide-15.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img4 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/16/16.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img5 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/17/17.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img6 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/18/18.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 2 */
+.img7 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/19/19.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img8 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/babidi/babidi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img9 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/baby/baby.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img10 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Bardock/bardock1.2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img10:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img11 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Beerus/beerus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img12 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/borgos/borgos-ozaru.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 3 */
+.img13 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Broly/super-broly.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img14 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/bulma/bulma.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img15 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Burter/burter4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img16 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Captain-Ginyu/captain-ginyu3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img17 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Cell/cell-stage-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img18 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Cell/cell-stage-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 4 */
+.img19 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Cell/cell-perfect.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img20 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/cell.jr/cell.jr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img21 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/chaos/chaos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img22 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Chilled/chilled2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img23 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Cooler/cooler.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img24 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/cui/cui.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 5 */
+.img25 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/dabura/dabura3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img26 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/daiz/daiz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img27 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/dende/Dende.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img28 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/dodoria/dodoria.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img29 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/eis-shenron/eis-shenron.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img30 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/evil-buu/boo-gray2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 6 */
+.img31 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/fasha/fasha-ozaru.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img32 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/freezer/freezer-stage1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img33 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/freezer/freezer-stage2.1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img34 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/freezer/freezer-stage3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img35 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/freezer/freezer-perfecto3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img35:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img36 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/freezer/freezer-superperfecto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 7 */
+.img37 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/fusion-buu/fusion-buu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img38 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/gero/Gero4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img39 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/gogeta/gogeta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img40 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/gohan/gohan-namekusein.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img41 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/goku/goke_ssj4_by_tashahemlock_d8htrrd-fullview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img41:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img42 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/goten/goten.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 8 */
+.img43 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/gotenks/gotenks3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img44 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/guldo/guldo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img45 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/hit/hit1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img46 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/janemba/janemba.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img47 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/jeice/jeice2png.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img47:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img48 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/jiren/jiren.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 9 */
+.img49 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/kaio-sama/kaio-sama.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img50 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/kai-supreme-buu/kai-supreme.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img51 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/kibito/Kibito.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img52 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/kid-boo/kid-boo-5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img52:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img53 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/king-cold/King-cold.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img54 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/king-vegeta/R.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 10 */
+.img55 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/krillin/Krillin2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img56 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/launch/launch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img57 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Majin-Buu/mashin-boo1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img58 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Master-Roshi/master-roshi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img59 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/metal-cooler/metal-cooler.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img60 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/moori/moori.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 11 */
+.img61 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/mr.popo/mr.popo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img62 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/mr.satan/mr.satan.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img63 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/nappa/nappa5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img63:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img64 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/neil/Neil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img65 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/old-kai/old_kai.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img66 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/oolong/oolong.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 12 */
+.img67 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/piccolo/piccolo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img68 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/piccolo-buu/piccolo-buu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img69 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/pilaf/pilaf.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img70 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/pupui/pupui1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img71 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/raditz/raditz1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img71:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img72 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/recoome/recoome.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 13 */
+.img73 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/saibaman/saibaman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img74 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/sauzer/Sauzer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img75 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/shampa/shampa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img76 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/shenron/shenlong.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img76:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img77 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/shugesh/shugesh-ozaru.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img78 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/slim-buu/slim-buu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 14 */
+.img79 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/super-17/suoer17.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img80 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/super-boo/super-boo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img81 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/supreme-kau/supreme-kai.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img82 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/tao-pai-pai/tao-pai-pai.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img83 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/tapion/tapion.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img84 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/tenshian/tenshian.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 15 */
+.img85 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/tora/tora1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img86 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/Trunks/trunks-future.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img87 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/tsuru-sennin/tsuru-sennin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img88 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/turles/turles.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img89 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/ultimate-buu/boo-gohan.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img90 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/uub/uub.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+/* characters container row 16 */
+.img91 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/vegeta/majin-vegeta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img91:hover{
+background-color: #d76e3b;
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+.img92 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/vegito/vegito2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img93 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/whis/Whis.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img94 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/yamcha/yamcha.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img95 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/zarbon/zarbon-stage1.1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+}
+.img96 {
+  /* border: 2px solid gold; */
+  background-color: #2f1e0f;
+  background-image: url(../img/carachters/zarbon/zarbon-stage2.1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 11.5vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.25vh;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.img96:hover{
+transform : scale(1.02);
+-moz-transform : scale(1.02);
+-webkit-transform : scale(1.02);
+-o-transform : scale(1.02);
+-ms-transform : scale(1.02);
+} 
+
+/* SEASONS SECTION */
+
+.dragon-ball-season-container {
+  border-bottom: 1px solid #c4bdab;
+  width: 79vw;
+  float: right;
+  margin-right: 3vw;
+  margin-top: 3vh;
+}
+.h2-seasons-title {
+  width: 79vw;
+  border-bottom: 4px solid #ed8635;
+  color: #222222;
+  font-family: noto;
+  font-size: 1.6em;
+  font-style: italic;
+  margin-bottom: 2vh;
+  padding-bottom: 0.25vh;
+  /* float: right; */
+  /* margin-left: 3vw; */
+}
+.seasons-p {
+  font-family: noto;
+  font-size: 0.9em;
+  line-height: 2.7vh;
+}
+.bold-word-italic {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* Season Dragon Ball 1986 */
+
+.seasons-text-container-1 {
+  /* border: 2px solid red; */
+  margin-bottom: 2.5vh;
+}
+.seasons-image-container-1 {
+  /* border: 2px solid green; */
+  float: left;
+  width: 13vw;
+}
+.seasons-img1 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 15vh;
+  background-image: url(../img/titles/Dragon_Ball_original_title.png);
+  background-size: cover;
+}
+.seasons-img-p-container-1 {
+  font-family: noto;
+  font-size: 0.7em;
+  width: 12vw;
+  margin-top: 0.5vh;
+  padding-left: 0.5vw;
+}
+.seasons-image-container-2 {
+  /* border: 2px solid green; */
+  float: right;
+  width: 13vw;
+}
+.seasons-img2 {
+  /* border: 2px solid green; */
+  width: 12vw;
+  height: 15vh;
+  float: right;
+  background-image: url(../img/DB-1-images/goku-tour.jpg);
+  background-size: cover;
+}
+.seasons-img-p-container-2 {
+  font-family: noto;
+  font-size: 0.7em;
+  width: 12vw;
+  padding-left: 1.5vw;
+  padding-top: 0.5vh;
+}
+
+/* Season Dragon Ball Z */
+
+.seasons-img3 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 15vh;
+  background-image: url(../img/titles/dragon-ballz-op.jfif);
+  background-size: cover;
+}
+.seasons-img4 {
+  /* border: 2px solid green; */
+  width: 12vw;
+  height: 15vh;
+  float: right;
+  background-image: url(../img/DB-Z-images/raditz-nappa-vegeta.jpg);
+  background-size: cover;
+}
+
+/* Season Dragon Ball GT */
+
+.seasons-img5 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 15vh;
+  background-image: url(../img/titles/Db-gt-title.png);
+  background-size: cover;
+}
+.seasons-img6 {
+  /* border: 2px solid green; */
+  width: 12vw;
+  height: 15vh;
+  float: right;
+  background-image: url(../img/DB-GT-images/ss4-face.png);
+  background-size: cover;
+}
+
+/* Season Dragon Ball Super */
+
+.seasons-img7 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 15vh;
+  background-image: url(../img/titles/DB-S.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seasons-img8 {
+  /* border: 2px solid green; */
+  width: 12vw;
+  height: 15vh;
+  float: right;
+  background-image: url(../img/DB-Super-images/vegeta-blue.jpg);
+  background-size: cover;
+}
+
+/* EPISODES SECTION */
+
+.episodes-container {
+  /* border: 2px solid black; */
+  width: 28vw;
+  float: right;
+  margin-right: 55vw;
+  margin-top: 3vh;
+}
+.episodes-header {
+  border-bottom: 4px solid #ed8635;
+  /* border-left: 5px solid #e2763e; */
+  /* background-color: #e2763e; */
+  font-family: noto;
+  font-weight: bolder;
+  font-style: italic;
+  color: #222222;
+  /* padding-left: 1vw; */
+  /* margin-left: 3vw; */
+  padding-bottom: 0.25vh;
+}
+.episodes-link {
+  /* border: 2px solid black; */
+  /* width: 8vw; */
+  font-family: noto;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #4065c5;
+  /* margin-bottom: 3vh; */
+}
+.episodes-url {
+  text-decoration: none;
+  /* width: 8vw; */
+}
+.episodes-link:hover {
+  color: #e2763e;
+  text-decoration: underline;
+  
+}
+.episodes-download {
+  /* border: 2px solid black; */
+  float: left;
+  font-family: noto;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #4065c5;
+}
+.episodes-download:hover{
+  color: #e2763e;
+  text-decoration: underline;
+}
+
+/* MEDIA SECTION */
+
+.media-img1 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 32vh;
+  background-image: url(../img/DB-movies/the-tree.jfif);
+  background-size: cover;
+}
+
+.media-img2 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 32vh;
+  float: right;
+  background-image: url(../img/DB-movies/coolerm.jpg);
+  background-size: cover;
+}
+.media-img3 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 33vh;
+  background-image: url(../img/video-games/budokai3.jfif);
+  background-size: cover;
+}
+.media-img4 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 28vh;
+  float: right;
+  background-image: url(../img/video-games/DBZ-DE-N-768x960.jpg);
+  background-size: cover;
+}
+.media-img5 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 32vh;
+  background-image: url(../img/manga/manga-cover-cell.jfif);
+  background-size: cover;
+}
+.media-img6 {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 32vh;
+  float: right;
+  background-image: url(../img/manga/ginyu-force.jfif);
+  background-size: cover;
+}
+
+/* TATTOO SECTION */
+
+.tattoo-container-1 {
+  /* border-bottom: 2px solid black; */
+  background-color: antiquewhite;
+  float: right;
+  width: 85vw;
+  height: 42vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+.tattoo-card1 {
+  /* border: 1px solid black; */
+  background-color: #e2763e;
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/49c.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card1:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card2 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/54c.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card2:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card3 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/52c.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card3:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card4 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/40cc.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card4:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-container-2 {
+  /* border-bottom: 2px solid black; */
+  background-color: antiquewhite;
+  float: right;
+  width: 85vw;
+  height: 42vh;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 1.75vh; */
+}
+.tattoo-card5 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/IMG_9216.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card5:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card6 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/8656eacd6d16a7589e67fcb85786ca04.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card6:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card7 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/55.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card7:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+.tattoo-card8 {
+  /* border: 1px solid black; */
+  /* background-color: #e2763e; */
+  width: 20vw;
+  height: 40vh;
+  background-image: url(../img/tattoos/46.jpg);
+  background-size: cover;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  opacity:  0.8;
+}
+.tattoo-card8:hover{
+  transform : scale(1.02);
+  -moz-transform : scale(1.02);
+  -webkit-transform : scale(1.02);
+  -o-transform : scale(1.02);
+  -ms-transform : scale(1.02);
+  opacity: 1;
+} 
+
+/* AKIRA TORIYAMA SECTION */
+.tribute-video-container {
+    /* border: 1px solid black; */
+    width: 62vw;
+    margin-right: 21vw;
+    float: right;
+    margin-top: 2vh;
+}
+
+#video-at-tribute {
+  width: 60vw;
+  /* height: 80vh; */
+  /* margin-left: 1.5vw; */
+  /* margin-right: 1.5vw; */
+  margin-bottom: 0.75vh;
+  border: 2px solid black;
+}
+.bold-word {
+  font-weight: bold;
+}
+.at-img1 {
+  border: 2px solid black;
+  background-image: url(../img/akira-toriyama-section/goku-tail.jpg);
+  background-size: cover;
+  /* font-family: noto;
+  font-size: 0.9em;
+  line-height: 2.7vh;
+  color: #000000;
+  padding-left: 3vw; */
+  width: 39vw;
+  height: 35vh;
+  /* height: 62vh; */
+  /* float: left; */
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+/* .at-img-subtitle {
+  width: 39vw;
+  height: 5vh;
+} */
+.at-img-subtitle-p{
+  border-bottom: 1px solid #222222;
+  width: 39vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  font-family: noto;
+  font-size: 0.7em;
+  text-align: center;
+  padding-bottom: 0.5vh;
+}
+.akira-link-wiki {
+  text-decoration: none;
+  color: #4065c5;
+}
+.akira-link-wiki:hover {
+  border-bottom: 2px solid #e2763e;
+  color: #e2763e
+}
+.at-img2 {
+  border: 2px solid black;
+  background-image: url(../img/akira-toriyama-section/gohan.jpg);
+  background-size: cover;
+  /* font-family: noto;
+  font-size: 0.9em;
+  line-height: 2.7vh;
+  color: #000000;
+  padding-left: 3vw; */
+  width: 39vw;
+  height: 35vh;
+  /* height: 62vh; */
+  /* float: left; */
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+/* CONTACT SECTION */
+
+.contact-image {
+  /* border: 1px solid black; */
+  background-image: url(../img/contact-section/finger-goku.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15.5vw;
+  height: 70.5vh;
+  float: right;
+  margin-right: 10.5vw;
+  margin-top: 5vh;
+}
+.contact-us-background {
+  /* border: 1px solid black; */
+  background-size: cover;
+  width: 35vw;
+  height: 77vh;
+  float: right;
+  margin-top: 5vh;
+}
+.contact-h2 {
+  /* border: 1px solid black; */
+  letter-spacing: 0.05em;
+  color: #222222;
+  /* margin-top: 5vh; */
+  margin-right: auto;
+  margin-left: auto;
+  font-family: noto;
+  font-size: 1.6em;
+  text-align: center;
+}
+.contactemail {
+  /* border: 1px solid black; */
+  width: 25vw;
+  height: 12vh;
+  margin: 2vh auto;
+  text-align: center;
+}
+img {
+  width: 3.5vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2vh;
+}
+.email-link {
+  color: #2f6ea7;
+  text-decoration: none;
+  text-align: center;
+  font-family: noto;
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.email-link:hover {
+  color: #e2763e;
+  border-bottom: 2px solid #e2763e;
+}
+.address {
+  width: 25vw;
+  height: 3vh;
+  background-color: transparent;
+  color: #222222;
+  font-family: noto;
+  font-size: 0.7em;
+  font-weight: 500;
+  text-align: center;
+  margin: 2vh auto ;
+}
+form {
+   /* border: 2px solid #000000; */
+  width: 30vw;
+  height: 46vh;
+  margin: 0 auto;
+}
+input {
+  /* border: 2px solid #000000; */
+  width: 25vw;
+  height: 5vh;
+  display: block;
+  margin: 1.5vh auto;
+  background-color: #ffffff;
+  border: none;
+}
+::placeholder {
+  font-family: noto;
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+textarea {
+  width: 25vw;
+  height: 17vh;
+  margin: 0 auto;
+  display: block;
+  padding-top: 1em;
+  background-color: #ffffff;
+  border: none;
+}
+button {
+  width: 8.5vw;
+  height: 4.05vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4em;
+  background-color: #4b2d15;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  -webkit-text-stroke: 0.8px #000000;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 10.5vw;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s; 
+}
+button:hover{
+  color: #ffffff;
+  transform : scale(1.05);
+  -moz-transform : scale(1.05);
+  -webkit-transform : scale(1.05);
+  -o-transform : scale(1.05);
+  -ms-transform : scale(1.05);
+}
+
+
+
