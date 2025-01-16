@@ -1,4 +1,6 @@
-Just double click on the index file to open the website** in your default browser and enjoy one of the most epic stories of all time!
+## 📄 Description
+
+Just open the index.html file on your default browser to navigate the website** and enjoy one of the most epic stories of all time!
 In honor of Akira Toriyama.
 
 
