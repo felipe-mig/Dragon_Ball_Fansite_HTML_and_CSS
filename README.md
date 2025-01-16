@@ -10,3 +10,5 @@ This is a Frontend project in which I built a Dragon Ball themed website** using
 * Proper folder structure
 
 ** The website is optimized for a 27" 3840 x 2160 display with a 16:9 aspect ratio.
+
+![Example Image](screenshots/Screenshot1.webp)
